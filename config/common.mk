@@ -94,6 +94,10 @@ PRODUCT_PACKAGES += \
     product_charger_res_images \
     product_charger_res_images_vendor
 
+# LunarisLockStyles
+PRODUCT_PACKAGES += \
+     LunarisLockStyles
+
 # Lineage-specific broadcast actions whitelist
 PRODUCT_COPY_FILES += \
     vendor/infinity/config/permissions/lineage-sysconfig.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/lineage-sysconfig.xml
