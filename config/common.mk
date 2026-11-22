@@ -319,6 +319,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     OmniJaws \
     OmniStyle
+    LunarisLockStyles
 
 # Overlays
 include packages/overlays/Themes/themes.mk
